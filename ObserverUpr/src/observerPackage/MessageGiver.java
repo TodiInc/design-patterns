@@ -18,7 +18,7 @@ public class MessageGiver {
 
     public void setNews(String message) {
         this.message = message;
-        for (Message m : this.messages) { /* тука стана малко сложно, naming is just perfect :D */
+        for (Message m : this.messages) { /* stana malko slojno tuka, naming is just perfect :D */
         	m.update(this.message);
         }
     }
